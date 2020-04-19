@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springbootvhr.dao.DepartmentDao">
+
+    <resultMap type="com.example.springbootvhr.entity.Department" id="DepartmentMap">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="parentId" column="parentId" jdbcType="INTEGER"/>
+        <result property="depPath" column="depPath" jdbcType="VARCHAR"/>
+        <result property="enabled" column="enabled" jdbcType="BIT"/>
+        <result property="isParent" column="isParent" jdbcType="BIT"/>
+    </resultMap>
+    <resultMap id="DepartmentWithChildren" type="com.example.springbootvhr.entity.Department"
+               extends="DepartmentMap">
+        <collection property="children" ofType="com.example.springbootvhr.entity.Department"
+                    select="com.example.springbootvhr.dao.DepartmentDao.getAllDepartmentsById" column="id">
+            <!--            collection里面加入select,column是用递归的方式-->
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="parentId" column="parentId" jdbcType="INTEGER"/>
+            <result property="depPath" column="depPath" jdbcType="VARCHAR"/>
+            <result property="enabled" column="enabled" jdbcType="BIT"/>
+            <result property="isParent" column="isParent" jdbcType="BIT"/>
+        </collection>
+    </resultMap>
+    <!--    存储过程统一使用select-->
+    <select id="addDep" statementType="CALLABLE">
+        call addDep(#{name,mode=IN,jdbcType=VARCHAR},#{parentId,mode=IN,jdbcType=INTEGER},#{enabled,mode=IN,jdbcType=BOOLEAN}
+        ,#{result,mode=OUT,jdbcType=INTEGER},#{id,mode=OUT,jdbcType=INTEGER})
+    </select>
+    <select id="getAllDepartmentsById" resultMap="DepartmentWithChildren">
+       select * from department where parentId=#{pid};
+    </select>
+    <select id="queryAllDeps" resultMap="DepartmentMap">
+        select id,name from department;
+    </select>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="DepartmentMap">
+        select
+          id, name, parentId, depPath, enabled, isParent
+        from vhr.department
+        where id = #{id}
+    </select>
+    <select id="deleteDep" statementType="CALLABLE">
+        call deleteDep(#{id,mode=IN,jdbcType=INTEGER},#{result,mode=OUT,jdbcType=INTEGER})
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="DepartmentMap">
+        select
+          id, name, parentId, depPath, enabled, isParent
+        from vhr.department
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="DepartmentMap">
+        select
+        id, name, parentId, depPath, enabled, isParent
+        from vhr.department
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="parentId != null">
+                and parentId = #{parentId}
+            </if>
+            <if test="depPath != null and depPath != ''">
+                and depPath = #{depPath}
+            </if>
+            <if test="enabled != null">
+                and enabled = #{enabled}
+            </if>
+            <if test="isParent != null">
+                and isParent = #{isParent}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into vhr.department(name, parentId, depPath, enabled, isParent)
+        values (#{name}, #{parentId}, #{depPath}, #{enabled}, #{isParent})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update vhr.department
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="parentId != null">
+                parentId = #{parentId},
+            </if>
+            <if test="depPath != null and depPath != ''">
+                depPath = #{depPath},
+            </if>
+            <if test="enabled != null">
+                enabled = #{enabled},
+            </if>
+            <if test="isParent != null">
+                isParent = #{isParent},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+<update id="updateDepParentIdById">
+    update department set parentId = parentId + 1 where id = #{id}
+</update>
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from vhr.department where id = #{id}
+    </delete>
+
+</mapper>

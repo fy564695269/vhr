@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81078bda-c416-4ef3-9246-fa9c87d2994c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1YsvoDlnHtG9M0DSun4dIxqKVY9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.VhrWebApplication">
+    <configuration name="SpringbootVhrApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vhr-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbootvhr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springbootvhr" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springbootvhr.SpringbootVhrApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mailserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.demooffy.mailserver.MailserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="vhr-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.vhr.nn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.vhr.nn.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VhrWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vhr-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootvhr.VhrWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootVhrApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.TestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81078bda-c416-4ef3-9246-fa9c87d2994c" name="Default Changelist" comment="" />
+      <created>1583744289038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583744289038</updated>
+      <workItem from="1583744294690" duration="1759000" />
+      <workItem from="1583746457817" duration="1274000" />
+      <workItem from="1583759004944" duration="805000" />
+      <workItem from="1583806405862" duration="4316000" />
+      <workItem from="1583829986998" duration="123000" />
+      <workItem from="1583830264915" duration="286000" />
+      <workItem from="1583889428931" duration="11443000" />
+      <workItem from="1583925166932" duration="304000" />
+      <workItem from="1583926474534" duration="2012000" />
+      <workItem from="1583979402570" duration="13981000" />
+      <workItem from="1584082833036" duration="6526000" />
+      <workItem from="1584191858455" duration="121000" />
+      <workItem from="1584241746243" duration="461000" />
+      <workItem from="1584343893888" duration="336000" />
+      <workItem from="1584760989112" duration="344000" />
+      <workItem from="1584761416421" duration="1545000" />
+      <workItem from="1585312346540" duration="512000" />
+      <workItem from="1585406891937" duration="1553000" />
+      <workItem from="1585408505646" duration="606000" />
+      <workItem from="1585825950360" duration="53000" />
+      <workItem from="1586609002129" duration="142000" />
+      <workItem from="1587195438061" duration="156000" />
+      <workItem from="1587195646003" duration="2342000" />
+      <workItem from="1587223974297" duration="617000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="121" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584087042102">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="121" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584087042102" />
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1584007159554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584007159554" />
+    <state width="1322" height="237" key="GridCell.Tab.0.bottom" timestamp="1587203350900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state width="1322" height="237" key="GridCell.Tab.0.center" timestamp="1587203350900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state width="1322" height="237" key="GridCell.Tab.0.left" timestamp="1587203350900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state width="1322" height="237" key="GridCell.Tab.0.right" timestamp="1587203350900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state width="1322" height="237" key="GridCell.Tab.1.bottom" timestamp="1587203350900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state width="1322" height="237" key="GridCell.Tab.1.center" timestamp="1587203350900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state width="1322" height="237" key="GridCell.Tab.1.left" timestamp="1587203350900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state width="1322" height="237" key="GridCell.Tab.1.right" timestamp="1587203350900">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state x="53" y="67" key="new project wizard" timestamp="1584344237227">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="67" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584344237227" />
+  </component>
+</project>
