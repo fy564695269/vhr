@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81078bda-c416-4ef3-9246-fa9c87d2994c" name="Default Changelist" comment="" />
+    <list default="true" id="81078bda-c416-4ef3-9246-fa9c87d2994c" name="Default Changelist" comment="打包配置">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-model/target/vhr-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-model/target/vhr-model-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/HrService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/HrService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/system/basic/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/system/basic/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/system/basic/JobLevelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/system/basic/JobLevelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/system/basic/PositionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/system/basic/PositionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/system/basic/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/com/example/springbootvhr/service/system/basic/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/org/example/vhr/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/org/example/vhr/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/org/example/vhr/service/SalaryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/org/example/vhr/service/SalaryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/org/example/vhr/utils/POIUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-service/target/classes/org/example/vhr/utils/POIUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-test/target/classes/META-INF/vhr-test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vhrserver/vhr-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-web/target/classes/META-INF/vhr-web.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhr-web/vhr-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vhrserver/vhrserver.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,6 +54,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1YsvoDlnHtG9M0DSun4dIxqKVY9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,8 +66,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Spring Boot.VhrWebApplication">
     <configuration name="SpringbootVhrApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -136,11 +168,29 @@
       <workItem from="1587195438061" duration="156000" />
       <workItem from="1587195646003" duration="2342000" />
       <workItem from="1587223974297" duration="617000" />
+      <workItem from="1587269369126" duration="158000" />
+      <workItem from="1587354755940" duration="2673000" />
+      <workItem from="1587357493200" duration="742000" />
+      <workItem from="1587358367355" duration="117000" />
+      <workItem from="1587370295356" duration="605000" />
+      <workItem from="1587391919547" duration="1092000" />
     </task>
+    <task id="LOCAL-00001" summary="打包配置">
+      <created>1587393828913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587393828913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="打包配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="打包配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="121" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584087042102">
@@ -151,38 +201,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584007159554" />
-    <state width="1322" height="237" key="GridCell.Tab.0.bottom" timestamp="1587203350900">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1587394451867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
-    <state width="1322" height="237" key="GridCell.Tab.0.center" timestamp="1587203350900">
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587394451867" />
+    <state width="1322" height="237" key="GridCell.Tab.0.bottom" timestamp="1587358484274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
-    <state width="1322" height="237" key="GridCell.Tab.0.left" timestamp="1587203350900">
+    <state width="1322" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587358484274" />
+    <state width="1322" height="237" key="GridCell.Tab.0.center" timestamp="1587358484274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
-    <state width="1322" height="237" key="GridCell.Tab.0.right" timestamp="1587203350900">
+    <state width="1322" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587358484274" />
+    <state width="1322" height="237" key="GridCell.Tab.0.left" timestamp="1587358484274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
-    <state width="1322" height="237" key="GridCell.Tab.1.bottom" timestamp="1587203350900">
+    <state width="1322" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587358484274" />
+    <state width="1322" height="237" key="GridCell.Tab.0.right" timestamp="1587358484274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="237" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
-    <state width="1322" height="237" key="GridCell.Tab.1.center" timestamp="1587203350900">
+    <state width="1322" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587358484274" />
+    <state width="1322" height="237" key="GridCell.Tab.1.bottom" timestamp="1587356262210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="237" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
-    <state width="1322" height="237" key="GridCell.Tab.1.left" timestamp="1587203350900">
+    <state width="1322" height="237" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587356262210" />
+    <state width="1322" height="237" key="GridCell.Tab.1.center" timestamp="1587356262210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="237" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
-    <state width="1322" height="237" key="GridCell.Tab.1.right" timestamp="1587203350900">
+    <state width="1322" height="237" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587356262210" />
+    <state width="1322" height="237" key="GridCell.Tab.1.left" timestamp="1587356262210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="237" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587203350900" />
+    <state width="1322" height="237" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587356262210" />
+    <state width="1322" height="237" key="GridCell.Tab.1.right" timestamp="1587356262210">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="237" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587356262210" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1587394458717">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587394458717" />
     <state x="53" y="67" key="new project wizard" timestamp="1584344237227">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
